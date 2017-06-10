@@ -11,6 +11,7 @@ $ docker run -d \
   -v"$(pwd)/resources:/srv/resources" \
   -v"$(pwd)/settings.xml:/srv/settings.xml" \
   -p"4499:4499/udp"
+  katie/gtan
 ```
 
 See https://github.com/kayteh/rush for an example of how to use this for production.
